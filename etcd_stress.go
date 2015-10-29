@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cloudfoundry-incubator/etcdstress/generator"
 	"github.com/coreos/go-etcd/etcd"
+	"github.com/jenspinney/etcdstress/generator"
 )
 
 var (
