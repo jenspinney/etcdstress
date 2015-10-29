@@ -9,7 +9,7 @@ In the logs, we see many messages like:
 2015/10/29 18:56:40 etcdhttp: got unexpected response error (etcdserver: request timed out)
 ```
 
-For a larger chunk of logs, see logs.txt in this repo.
+For a larger chunk of logs, see [logs.txt](logs.txt) in this repo.
 
 Our environment:
 
