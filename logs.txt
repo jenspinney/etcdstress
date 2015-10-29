@@ -1,0 +1,33 @@
+2015/10/29 18:56:37 raft: raft.node: d4791d67a31c01c lost leader 9f271e379196bd9d at term 20
+2015/10/29 18:56:40 raft: d4791d67a31c01c [term: 20] ignored a MsgApp message with lower term from 9f271e379196bd9d [term: 19]
+2015/10/29 18:56:40 etcdhttp: got unexpected response error (etcdserver: request timed out)
+2015/10/29 18:56:40 etcdhttp: got unexpected response error (etcdserver: request timed out)
+2015/10/29 18:56:40 etcdhttp: got unexpected response error (etcdserver: request timed out)
+2015/10/29 18:56:40 etcdhttp: got unexpected response error (etcdserver: request timed out)
+2015/10/29 18:56:40 etcdhttp: got unexpected response error (etcdserver: request timed out)
+2015/10/29 18:56:40 etcdhttp: got unexpected response error (etcdserver: request timed out)
+2015/10/29 18:56:42 raft: d4791d67a31c01c is starting a new election at term 20
+2015/10/29 18:56:42 raft: d4791d67a31c01c became candidate at term 21
+2015/10/29 18:56:42 raft: d4791d67a31c01c received vote from d4791d67a31c01c at term 21
+2015/10/29 18:56:42 raft: d4791d67a31c01c [logterm: 19, index: 342903] sent vote request to 15340cb847cd8e26 at term 21
+2015/10/29 18:56:42 raft: d4791d67a31c01c [logterm: 19, index: 342903] sent vote request to 9f271e379196bd9d at term 21
+2015/10/29 18:56:42 raft: d4791d67a31c01c received vote rejection from 9f271e379196bd9d at term 21
+2015/10/29 18:56:42 raft: d4791d67a31c01c [q:2] has received 1 votes and 1 vote rejections
+2015/10/29 18:56:44 raft: d4791d67a31c01c [term: 21] ignored a MsgApp message with lower term from 15340cb847cd8e26 [term: 20]
+2015/10/29 18:56:44 raft: d4791d67a31c01c received vote rejection from 15340cb847cd8e26 at term 21
+2015/10/29 18:56:44 raft: d4791d67a31c01c [q:2] has received 1 votes and 2 vote rejections
+2015/10/29 18:56:44 raft: d4791d67a31c01c became follower at term 21
+2015/10/29 18:56:44 fileutil: purged file /var/vcap/store/etcd/member/snap/000000000000000a-0000000000046e4c.snap successfully
+2015/10/29 18:56:44 raft: d4791d67a31c01c [term: 21] received a MsgVote message with higher term from 9f271e379196bd9d [term: 22]
+2015/10/29 18:56:44 raft: d4791d67a31c01c became follower at term 22
+2015/10/29 18:56:44 raft: d4791d67a31c01c [logterm: 19, index: 342903, vote: 0] voted for 9f271e379196bd9d [logterm: 19, index: 342904] at term 22
+2015/10/29 18:56:44 raft: raft.node: d4791d67a31c01c elected leader 9f271e379196bd9d at term 22
+2015/10/29 18:56:51 etcdserver: start to snapshot (applied: 350476, lastsnap: 340456)
+2015/10/29 18:56:53 etcdserver: saved snapshot at index 350476
+2015/10/29 18:56:53 etcdserver: compacted raft log at 345476
+2015/10/29 18:57:07 raft: d4791d67a31c01c is starting a new election at term 22
+2015/10/29 18:57:07 raft: d4791d67a31c01c became candidate at term 23
+2015/10/29 18:57:07 raft: d4791d67a31c01c received vote from d4791d67a31c01c at term 23
+2015/10/29 18:57:07 raft: d4791d67a31c01c [logterm: 22, index: 358146] sent vote request to 15340cb847cd8e26 at term 23
+2015/10/29 18:57:07 raft: d4791d67a31c01c [logterm: 22, index: 358146] sent vote request to 9f271e379196bd9d at term 23
+2015/10/29 18:57:07 raft: raft.node: d4791d67a31c01c lost leader 9f271e379196bd9d at term 23
